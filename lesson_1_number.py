@@ -51,6 +51,75 @@ else:
     print("Fales")
 
 
+   
+
+
+
+
+
+
+
+
+
+
+
+
+num=100
+print(" часть зарплаты ", num)
+num1=input("--")
+num1=float(num1)
+print ("сумма сделок", num1)
+num2=num1*0.05
+print("процент от сделок", num2)
+num3=num+num2
+print("итоговая зп", num3)
+
+
+
+
+
+
+num=input("--")
+num=float(num)
+num1=input("--")
+num1=float(num1)
+if(num<num1):
+      print("расстояние", num1-num)
+else:
+      print("False")
+
+
+
+
+
+
+
+
+
+num=input("--")
+num=float(num)
+num1=num/3600
+print("час", num1)
+num2=num/60
+print("минуты", num2)
+num3=num
+print("секунды", num3)
+num4=86400-num
+print("до полуночи", num4)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
