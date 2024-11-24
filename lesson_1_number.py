@@ -1,56 +1,116 @@
-num1=True
-num2=False
-num_1=4
-if(num_1==4):
-        print("true")
-else:
-        print("False")
-
-
-
-num4=1
-num5=4
-if(num4<=1 or num5<=1):
-       print("num4<=1 or num5!=1")
-else:
-       print("num4!=1 or num5<=1")
-
-
-
-num6=555
-if(num6>0):
-       print("num6>0")
-if(num6<0):
-       print("num6<0")
-if(num6==0):
-       print("num6==0")
-
-
-
-num1=5
-num2=3
-num3=3
-num4=3
-num5=3
-num6=((num1+num2+num3+num4+num5)/5)
-if(num6>=3):
-           print("num6>=3")
-if(num6<3):
-           print("num6<3")
- 
 
 
 
 
-num10=7
-if(num10/2):
-         print("num10*3")
-if(num10/2):
-    print("num10/2")
-else:
-    print("Fales")
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+import random
+
+print(random.random())
+print(random.randint(1,909))
+
+num_float=3.1897667867867896
+print(num_float)
+print(round(num_float,2))
+print(round(num_float,0))
+
+
+
+
+
+
+
+arr_num=[9,44,898]
+
+print(arr_num)
+print(type(arr_num))
+
+
+print(arr_num[0],arr_num[2])
+
+
+
+
+num_=7
+print(len(arr_num))
+
+
+
+
+#for i in range(len(arr_num)):
+   #print("i=",i)
    
 
 
@@ -64,86 +124,35 @@ else:
 
 
 
-num=100
-print(" часть зарплаты ", num)
-num1=input("--")
-num1=float(num1)
-print ("сумма сделок", num1)
-num2=num1*0.05
-print("процент от сделок", num2)
-num3=num+num2
-print("итоговая зп", num3)
+
+##num=int(input("--"))
+#num2=int(input("--"))
+#num3=int(input("--"))
+#num4=int(input("--"))
+#num5=int(input("--"))
+#num6=int(input("--"))
+#num7=num+num2+num3+num4+num5+num6
+#print(num7)
+
+
+
+
+#arr_num=[40,39,38,37,36,35,34,33,32,31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,]
+#for i in range(len(arr_num)):
+   #print("i =", i)
+    #print("arr_num[i] =",arr_num[i])
+   # print("-")
 
 
 
 
 
-
-num=input("--")
-num=float(num)
-num1=input("--")
-num1=float(num1)
-if(num<num1):
-      print("расстояние", num1-num)
-else:
-      print("False")
-
-
-
-
-
-
-
-
-
-num=input("--")
-num=float(num)
-num1=num/3600
-print("час", num1)
-num2=num/60
-print("минуты", num2)
-num3=num
-print("секунды", num3)
-num4=86400-num
-print("до полуночи", num4)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+num=int(input("--"))
+num1=int(input("--"))
+num3=int(input("--"))
+num4=int(input("--"))
+num5=( num+num1+num3+num4)/4
+print(num5)
 
 
 
